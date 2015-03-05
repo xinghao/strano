@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rails', '~>3.2.11'
-gem 'mysql2'
+gem 'pg'
 gem 'sqlite3'
 
 # Gems used only for assets and not required

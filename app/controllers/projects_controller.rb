@@ -11,7 +11,7 @@ class ProjectsController < InheritedResources::Base
 
   def show
     show! do
-      @recent_tasks = resource.jobs.group(:task).order(:created_at).limit(5)
+      @recent_tasks = resource.jobs.to_a
     end
   end
 
